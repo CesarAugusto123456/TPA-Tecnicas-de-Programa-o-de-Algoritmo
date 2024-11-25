@@ -1,0 +1,26 @@
+package vetorexpoente;
+import java.util.Scanner;
+public class vetorexpoente {
+	public static void main(String[] args) {
+		int i,j, a[],e=2;
+		final int tam=11;
+		a = new int[tam];
+	
+		for(i=0; i <tam;i++) {
+			a[i] = i;
+		}
+		
+		
+		for(i=0;i<tam-1;i++) {
+			if(a[i] == 0) {System.out.println("1");}
+			else {
+				e = 2;
+				for(j = 0;j < a[i];j++) {
+			e = 2*e;
+		} }
+		   System.out.println(e);}
+		
+
+	}
+}
+
